@@ -6,19 +6,19 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0000", // Change this to any 4-digit code (the passcode for access)
+  correctPasscode: "0429", // Change this to any 4-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode here", // Title displayed on the passcode entry page
   successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: 0000", // Message shown for incorrect passcode
+  incorrectPasscodeMessage: "Incorrect passcode, hint: my bd", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
 
   // 🔍 Question Page
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Hello", // Example trending search query
-    "Why is the sky blue", // Another example query
+    "Hey cutie", // Example trending search query
+    "Why is the [name] so cute", // Another example query
     `Top 10 images of all time ever`, // A personalized trending search
   ],
   proTip: 'Pro tip: try searching "How long have we been together?"', // Helpful tip for users
