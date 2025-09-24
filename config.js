@@ -17,7 +17,7 @@ const config = {
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Hey cutie", // Example trending search query
+    "Hey", // Example trending search query
     "Why is the [name] so cute", // Another example query
     `Top 10 images of all time ever`, // A personalized trending search
   ],
